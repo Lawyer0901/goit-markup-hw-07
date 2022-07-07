@@ -751,16 +751,16 @@ ul {
 
 /* MAIN-LIST */
 
-.main-list {
+.portfolio__list {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
 }
-.list-item:not(:last-child) {
+.portfolio__item:not(:last-child) {
   margin-right: 8px;
 }
 
-.button-nonact {
+.portfolio__button {
   padding: 6px 22px;
   font-family: inherit;
   font-weight: 500;
@@ -776,24 +776,24 @@ ul {
     color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.button-nonact:hover,
-.button-nonact:focus {
+.portfolio__button--nonact:hover,
+.portfolio__button--nonact:focus {
   background-color: var(--button-bg-color);
   color: var(--button-active-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.button-act {
+.portfolio__button--act {
   background-color: var(--button-bg-color);
   color: var(--button-active-color);
 }
-.main-content {
+.portfolio__content {
   display: flex;
   flex-wrap: wrap;
   margin: -15px;
 }
-.img-portfolio {
+.portfolio__img {
   display: block;
 }
 .container-portfolio {
@@ -813,29 +813,29 @@ ul {
   overflow: hidden;
 }
 
-.text-absolute {
+.portfolio__text {
   font-size: 18px;
   line-height: 28px;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
 
-.content-item {
+.portfolio__content-item {
   margin: 15px;
 }
-.content-item:hover {
+.portfolio__content-item:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-.content-item:hover .container-portfolio {
+.portfolio__content-item:hover .container-portfolio {
   transform: translate(-50%) translateY(0);
 }
 
-.title-text {
+.portfolio__name {
   border: 1px solid #eeeeee;
   padding: 20px 24px;
 }
-.title-portfolio {
+.portfolio__title {
   margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
@@ -843,7 +843,7 @@ ul {
   letter-spacing: 0.06em;
   color: var(--text-head-color);
 }
-.text-portfolio {
+.portfolio__name {
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.03em;

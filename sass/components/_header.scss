@@ -3,20 +3,20 @@
 }
 
 .header {
-  &-container {
+  .header-container {
     display: flex;
     align-items: center;
   }
 }
 /* Navigation main */
 .header {
-  &__navigation {
+  .header__navigation {
     margin-left: 93px;
   }
-  &__list {
+  .header__list {
     display: flex;
   }
-  &__item:not(:last-child) {
+  .header__item:not(:last-child) {
     margin-right: 50px;
   }
 }

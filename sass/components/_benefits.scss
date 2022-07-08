@@ -1,5 +1,5 @@
 .benefits {
-  &__title {
+  .benefits__title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -10,24 +10,22 @@
 }
 
 .benefits {
-  &__text {
+  .benefits__text {
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
-  }
-
-  &__text {
     width: 270px;
   }
 }
+
 .benefits {
-  &__list {
+  .benefits__list {
     display: flex;
     justify-content: space-between;
   }
 }
 .benefits {
-  &__icon {
+  .benefits__icon {
     display: inline-flex;
     justify-content: center;
     align-items: center;
